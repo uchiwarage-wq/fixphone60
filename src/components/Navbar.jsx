@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Menu } from 'lucide-react';
-import logo from './Logo1.png';
+import logo from '../Logo1.png';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
