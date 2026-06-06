@@ -9,7 +9,7 @@ export default function CommanderSection() {
 
   const handleUrgence = () => {
     window.open(
-      'https://mail.google.com/mail/?view=cm&to=urgence-fixphone60@gmail.com&su=Urgence%20Réparation&body=Bonjour,%20j%27ai%20besoin%20d%27une%20réparation%20urgente.',
+      'https://mail.google.com/mail/?view=cm&to=urgence.fixphone60@gmail.com&su=Urgence%20Réparation&body=Bonjour,%20j%27ai%20besoin%20d%27une%20réparation%20urgente.',
       '_blank'
     );
   };
@@ -64,11 +64,11 @@ export default function CommanderSection() {
           </div>
 
           <a
-            href="mailto:contact-fixphone60@gmail.com"
+            href="mailto:contact.fixphone60@gmail.com"
             className="inline-flex items-center gap-2 text-white/40 hover:text-primary transition-colors text-sm font-body"
           >
             <Mail className="w-4 h-4" />
-            contact-fixphone60@gmail.com
+            contact.fixphone60@gmail.com
           </a>
         </motion.div>
       </div>
