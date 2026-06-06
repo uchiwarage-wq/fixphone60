@@ -64,7 +64,7 @@ export default function CommanderSection() {
           </div>
 
           <a
-            href="mailto:contact@fixphone60.fr"
+            href="mailto:contact-fixphone60@gmail.com"
             className="inline-flex items-center gap-2 text-white/40 hover:text-primary transition-colors text-sm font-body"
           >
             <Mail className="w-4 h-4" />
