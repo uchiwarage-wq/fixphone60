@@ -68,7 +68,7 @@ export default function CommanderSection() {
             className="inline-flex items-center gap-2 text-white/40 hover:text-primary transition-colors text-sm font-body"
           >
             <Mail className="w-4 h-4" />
-            contact@fixphone60.fr
+            contact-fixphone60@gmail.com
           </a>
         </motion.div>
       </div>
