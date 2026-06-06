@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Menu } from 'lucide-react';
+import logo from '../assets/Logo1.png';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -14,7 +15,6 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Rajdhani : police techy & bold, en accord avec le logo */}
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
         .brand-name {
@@ -35,7 +35,7 @@ export default function Navbar() {
       }`}>
         <div className="max-w-lg mx-auto flex items-center justify-between px-5 py-4">
           <div className="flex items-center gap-2">
-            <img src="/Logo1.png" alt="FixPhone60" className="h-8 w-auto" />
+            <img src={logo} alt="FixPhone60" className="h-8 w-auto" />
             <span className="brand-name">FixPhone60</span>
           </div>
           <button onClick={() => setMenuOpen(true)} className="text-white md:hidden">
